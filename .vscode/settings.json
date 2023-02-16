@@ -1,6 +1,0 @@
-{
-    "java.project.sourcePaths": [
-        "localCache/src/main/java/com/astocoding"
-    ],
-    "java.compile.nullAnalysis.mode": "automatic"
-}
