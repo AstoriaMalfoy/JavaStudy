@@ -1,4 +1,4 @@
-package com.astocoding;
+package com.astocoding.unsafe;
 
 import sun.misc.Unsafe;
 

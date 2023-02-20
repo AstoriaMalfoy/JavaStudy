@@ -1,4 +1,4 @@
-package com.astocoding;
+package com.astocoding.unsafe;
 
 import sun.misc.Unsafe;
 
@@ -16,7 +16,7 @@ import java.lang.reflect.Field;
  */
 public class UnSafeCreate {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-        new UnSafeCreate().reflexetNormallSetObject();
+        new UnSafeCreate().normalCreateUnSafeObject();
     }
 
 
