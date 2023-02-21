@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Jcstress" />
+        <module name="Unsafe" />
+        <module name="localCache" />
+        <module name="JavaBase" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java" target="1.8" />
+      <module name="JavaBase" target="8" />
+      <module name="JavaLock" target="8" />
+      <module name="Jcstress" target="8" />
+      <module name="localCache" target="1.8" />
+      <module name="springboot" target="1.11" />
+      <module name="Unsafe" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

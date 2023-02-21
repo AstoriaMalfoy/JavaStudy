@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9308205-4d3c-4b24-beae-b69dd1f3385b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Jsctress/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jsctress/src/main/java/com/astocoding/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jsctress/src/main/java/com/astocoding/VisibilityAbleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/ModifyFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnSafeCSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnsafeVisitable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcstress-results-2023-02-20-16-11-29.bin.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/com.astocoding.unsafe.UnsafeVisitable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLock/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLock/src/main/java/com/ascoding/AtomicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLock/src/main/java/com/ascoding/AtomicDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsafe/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/GetFieldOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/GetFieldOffset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/UnSafeCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnSafeCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/UnsafeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnsafeBase.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/CacheBuilder.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/CacheStats.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/AbstractCache.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/CacheBuilderSpec.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/LoadingCache.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/lang/ref/PhantomReference.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/lang/System.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/openjdk/jcstress/jcstress-core/0.15/jcstress-core-0.15.jar!/org/openjdk/jcstress/annotations/JCStressTest.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaBase/src/main/java/com/astocoding/GroupByTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/sun/misc/Cleaner.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/sun/misc/Unsafe.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/openjdk/jcstress/jcstress-core/0.15/jcstress-core-0.15.jar!/org/openjdk/jcstress/annotations/Mode.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/Semaphore.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/localCache/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JavaBase/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/sun/nio/ch/DirectBuffer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/nio/DirectByteBuffer.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/maven/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Develop\software\maven\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GB2312" />
+  </component>
+  <component name="ProjectId" id="2Lg1Rk6DUK8xFwManZgDMHlmeNF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22998872" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="jcstress" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="workDefaultJDK" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.openjdk.jcstress.Main" />
+      <module name="Unsafe" />
+      <option name="PROGRAM_PARAMETERS" value="-t VisibilityAbleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9308205-4d3c-4b24-beae-b69dd1f3385b" name="Changes" comment="" />
+      <created>1676277906541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676277906541</updated>
+      <workItem from="1676277908298" duration="483000" />
+      <workItem from="1676278404733" duration="260000" />
+      <workItem from="1676278673658" duration="6427000" />
+      <workItem from="1676357918996" duration="2179000" />
+      <workItem from="1676430515970" duration="1319000" />
+      <workItem from="1676448946302" duration="41000" />
+      <workItem from="1676449030126" duration="593000" />
+      <workItem from="1676534494700" duration="8038000" />
+      <workItem from="1676598951743" duration="25001000" />
+      <workItem from="1676712333250" duration="17026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnSafeCreate.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/GetFieldOffset.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

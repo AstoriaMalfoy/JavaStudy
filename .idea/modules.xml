@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaBase/JavaBase.iml" filepath="$PROJECT_DIR$/JavaBase/JavaBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLock/JavaLock.iml" filepath="$PROJECT_DIR$/JavaLock/JavaLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaStudy.iml" filepath="$PROJECT_DIR$/.idea/JavaStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jsctress/Jcstress.iml" filepath="$PROJECT_DIR$/Jsctress/Jcstress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unsafe/Unsafe.iml" filepath="$PROJECT_DIR$/Unsafe/Unsafe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/localCache/localCache.iml" filepath="$PROJECT_DIR$/localCache/localCache.iml" />
+    </modules>
+  </component>
+</project>
