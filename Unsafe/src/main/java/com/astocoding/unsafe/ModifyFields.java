@@ -79,8 +79,8 @@ public class ModifyFields {
     @Data
     @ToString
     public static class Person{
-        private String name;
-        private int age;
+        private final String name;
+        private final int age;
         private Person(String name,int age){
             this.name = name;
             this.age = age;

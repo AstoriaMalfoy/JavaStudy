@@ -16,7 +16,27 @@ import java.lang.reflect.Field;
  */
 public class UnSafeCreate {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
-        new UnSafeCreate().normalCreateUnSafeObject();
+        try {
+            Unsafe normalUnsafeObject = Unsafe.getUnsafe();
+            System.out.println("[INFO] normal create unsafe object success normalUnsafeObject = " + normalUnsafeObject.toString());
+        }catch (Exception e){
+            System.out.println("[ERROR] normal get unsafe object failed " + e.getMessage());
+        }
+        try {
+            Field unsafeField = Unsafe.class.getDeclaredField("theUnsafe");
+            unsafeField.setAccessible(true);
+            Unsafe unsafe = (Unsafe) unsafeField.get("theUnsafe");
+            System.out.println("[INFO] reflexet create unsafe object success unsafe = " + unsafe.toString());
+        }catch (Exception e){
+            System.out.println("[ERROR] reflexet get unsafe object failed " + e.getMessage());
+        }
+        try {
+            Unsafe unsafe = UnsafeBase.getUnsafe();
+            System.out.println("[INFO] get unsafe object by sec area success unsafe = " + unsafe.toString());
+        }catch (Exception e){
+            System.out.println("[ERROR] get unsafe object by sec area failed " + e.getMessage());
+        }
+
     }
 
 
@@ -31,7 +51,7 @@ public class UnSafeCreate {
      */
     public void normalCreateUnSafeObject(){
         Unsafe unsafe = Unsafe.getUnsafe();
-        System.out.println(unsafe);
+        System.out.println(unsafe.toString());
     }
 
 
@@ -41,7 +61,13 @@ public class UnSafeCreate {
     public void reflexetNormallSetObject() throws NoSuchFieldException, IllegalAccessException {
         Field theUnsafes = Unsafe.class.getDeclaredField("theUnsafe");
         theUnsafes.setAccessible(true);
-        System.out.println(theUnsafes.get("theUnsafe"));
+        System.out.println(theUnsafes.get("theUnsafe").toString());
+    }
+
+
+    public void getUnsafesBySecArea() throws NoSuchFieldException, IllegalAccessException {
+        Unsafe unsafe = UnsafeBase.getUnsafe();
+        System.out.println(unsafe.toString());
     }
 
 }

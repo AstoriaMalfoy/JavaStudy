@@ -22,4 +22,9 @@ public class UnsafeBase {
         }
     }
 
+    public static Unsafe getUnsafe(){
+        System.out.println("[warn] Unsafe.getUnsafe() is not supported in this environment");
+        return Unsafe.getUnsafe();
+    }
+
 }

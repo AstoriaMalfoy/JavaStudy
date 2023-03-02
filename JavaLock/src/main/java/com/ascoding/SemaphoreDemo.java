@@ -20,6 +20,6 @@ public class SemaphoreDemo {
     public static void main(String[] args) {
         Semaphore semaphore = new Semaphore(2);
 
-        Thread.currentThread()
+        Thread.currentThread();
     }
 }
