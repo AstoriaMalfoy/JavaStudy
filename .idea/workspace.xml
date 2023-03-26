@@ -4,22 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9308205-4d3c-4b24-beae-b69dd1f3385b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jsctress/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jsctress/src/main/java/com/astocoding/SimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jsctress/src/main/java/com/astocoding/VisibilityAbleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/ModifyFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnSafeCSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnsafeVisitable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcstress-results-2023-02-20-16-11-29.bin.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/com.astocoding.unsafe.UnsafeVisitable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLock/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLock/src/main/java/com/ascoding/AtomicDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLock/src/main/java/com/ascoding/AtomicDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsafe/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/GetFieldOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/GetFieldOffset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/UnSafeCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnSafeCreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/UnsafeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnsafeBase.java" afterDir="false" />
+    <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/java/com/astocoding/bloomfilter/BloomFilterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/java/com/astocoding/bloomfilter/bloomFilter/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/test/java/com/astocoding/bloomfilter/BloomFilterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jcstress_jcstress_core_0_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jcstress_jcstress_core_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBase/JavaBase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLock/JavaLock.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jsctress/Jsctress.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadLocal/ThreadLocal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThreadOperator/ThreadOperator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unsafe/Unsafe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localCache/localCache.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,43 +61,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/CacheBuilder.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/CacheStats.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/AbstractCache.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/CacheBuilderSpec.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar!/com/google/common/cache/LoadingCache.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/lang/ref/PhantomReference.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/lang/System.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/openjdk/jcstress/jcstress-core/0.15/jcstress-core-0.15.jar!/org/openjdk/jcstress/annotations/JCStressTest.class" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JavaBase/src/main/java/com/astocoding/GroupByTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/sun/misc/Cleaner.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/sun/misc/Unsafe.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/openjdk/jcstress/jcstress-core/0.15/jcstress-core-0.15.jar!/org/openjdk/jcstress/annotations/Mode.class" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/Semaphore.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/localCache/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JavaBase/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/sun/nio/ch/DirectBuffer.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/io/PrintStream.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$PROJECT_DIR$/../../software/WorkDefaultJDK/src.zip!/java/nio/DirectByteBuffer.java" root0="SKIP_INSPECTION" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -78,100 +69,95 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../software/maven/apache-maven-3.8.6" />
         <option name="useMavenConfig" value="true" />
-        <option name="userSettingsFile" value="D:\Develop\software\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="vmOptions" value="-Dfile.encoding=GB2312" />
-  </component>
-  <component name="ProjectId" id="2Lg1Rk6DUK8xFwManZgDMHlmeNF" />
+  <component name="ProjectId" id="2NUaDAQ6X1UbTi4vemfdfmrRgwD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="go.format.on.save.advertiser.fired" value="true" />
-    <property name="go.formatter.settings.were.checked" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.22998872" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
-  </component>
-  <component name="ReaderModeSettings">
-    <option name="enabled" value="false" />
-  </component>
-  <component name="RunManager">
-    <configuration name="jcstress" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="workDefaultJDK" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.openjdk.jcstress.Main" />
-      <module name="Unsafe" />
-      <option name="PROGRAM_PARAMETERS" value="-t VisibilityAbleTest" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/stuart/myDevFile/Project/JavaProject/JavaStudy",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Filter">
+    <configuration name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.bloomFilter.Filter" />
+      <module name="BloomFilter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.astocoding.bloomfilter.bloomFilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BloomFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BloomFilter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.astocoding.bloomfilter.BloomFilterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Filter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9308205-4d3c-4b24-beae-b69dd1f3385b" name="Changes" comment="" />
-      <created>1676277906541</created>
+      <changelist id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="" />
+      <created>1679720992208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1676277906541</updated>
-      <workItem from="1676277908298" duration="483000" />
-      <workItem from="1676278404733" duration="260000" />
-      <workItem from="1676278673658" duration="6427000" />
-      <workItem from="1676357918996" duration="2179000" />
-      <workItem from="1676430515970" duration="1319000" />
-      <workItem from="1676448946302" duration="41000" />
-      <workItem from="1676449030126" duration="593000" />
-      <workItem from="1676534494700" duration="8038000" />
-      <workItem from="1676598951743" duration="25001000" />
-      <workItem from="1676712333250" duration="17026000" />
+      <updated>1679720992208</updated>
+      <workItem from="1679720993664" duration="2757000" />
+      <workItem from="1679728725523" duration="200000" />
+      <workItem from="1679728931731" duration="2965000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/UnSafeCreate.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Unsafe/src/main/java/com/astocoding/unsafe/GetFieldOffset.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

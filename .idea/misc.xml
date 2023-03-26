@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/localCache/pom.xml" />
         <option value="$PROJECT_DIR$/JavaBase/pom.xml" />
         <option value="$PROJECT_DIR$/JavaLock/pom.xml" />
-        <option value="$PROJECT_DIR$/Unsafe/pom.xml" />
         <option value="$PROJECT_DIR$/Jsctress/pom.xml" />
+        <option value="$PROJECT_DIR$/localCache/pom.xml" />
+        <option value="$PROJECT_DIR$/ThreadLocal/pom.xml" />
+        <option value="$PROJECT_DIR$/ThreadOperator/pom.xml" />
+        <option value="$PROJECT_DIR$/Unsafe/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/JavaLock/Unsafe/pom.xml" />
-      </set>
-    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="workDefaultJDK" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="workDefaultJDK" project-jdk-type="JavaSDK" />
 </project>
