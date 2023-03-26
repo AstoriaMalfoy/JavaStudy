@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaStudy.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -16,37 +15,6 @@
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/java/com/astocoding/bloomfilter/bloomFilter/Filter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/test/java/com/astocoding/bloomfilter/BloomFilterApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jcstress_jcstress_core_0_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jcstress_jcstress_core_0_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBase/JavaBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLock/JavaLock.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jsctress/Jsctress.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreadLocal/ThreadLocal.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThreadOperator/ThreadOperator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unsafe/Unsafe.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localCache/localCache.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "/Users/stuart/myDevFile/Project/JavaProject/JavaStudy",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -138,7 +107,7 @@
       <updated>1679720992208</updated>
       <workItem from="1679720993664" duration="2757000" />
       <workItem from="1679728725523" duration="200000" />
-      <workItem from="1679728931731" duration="2965000" />
+      <workItem from="1679728931731" duration="3642000" />
     </task>
     <servers />
   </component>
