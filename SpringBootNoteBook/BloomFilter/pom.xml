@@ -25,14 +25,28 @@
 
 
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.redisson</groupId>
 			<artifactId>redisson</artifactId>
 			<version>3.6.5</version>
+=======
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>31.1-jre</version>
+>>>>>>> 279971c (add.)
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
+<<<<<<< HEAD
+=======
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+>>>>>>> 279971c (add.)
 		</dependency>
 
 		<dependency>
