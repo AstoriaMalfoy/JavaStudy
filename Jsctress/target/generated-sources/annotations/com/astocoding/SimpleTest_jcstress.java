@@ -107,4 +107,98 @@ public class SimpleTest_jcstress extends Runner<I_Result_jcstress> {
         int len = ss.length;
         int left = a * len / actors;
         int right = (a + 1) * len / actors;
-        for (int c = left; c < 
+        for (int c = left; c < right; c++) {
+            I_Result_jcstress r = rs[c];
+            SimpleTest s = ss[c];
+            ss[c] = new SimpleTest();
+            cnt.record(r);
+            r.r1 = 0;
+        }
+    }
+
+    public final void jcstress_updateHolder(StateHolder<SimpleTest, I_Result_jcstress> holder) {
+        if (!holder.tryStartUpdate()) return;
+        SimpleTest[] ss = holder.ss;
+        I_Result_jcstress[] rs = holder.rs;
+        int len = ss.length;
+
+        int newLen = holder.updateStride ? Math.max(config.minStride, Math.min(len * 2, config.maxStride)) : len;
+
+        SimpleTest[] newS = ss;
+        I_Result_jcstress[] newR = rs;
+        if (newLen > len) {
+            newS = Arrays.copyOf(ss, newLen);
+            newR = Arrays.copyOf(rs, newLen);
+            for (int c = len; c < newLen; c++) {
+                newR[c] = new I_Result_jcstress();
+                newS[c] = new SimpleTest();
+            }
+         }
+
+        version = new StateHolder<>(control.isStopped, newS, newR, 2, config.spinLoopStyle);
+        holder.finishUpdate();
+   }
+
+    public final Counter<I_Result_jcstress> actor1() {
+
+        Counter<I_Result_jcstress> counter = new Counter<>();
+        while (true) {
+            StateHolder<SimpleTest,I_Result_jcstress> holder = version;
+            if (holder.stopped) {
+                return counter;
+            }
+
+            SimpleTest[] ss = holder.ss;
+            I_Result_jcstress[] rs = holder.rs;
+            int size = ss.length;
+
+            holder.preRun();
+
+            for (int c = 0; c < size; c++) {
+                SimpleTest s = ss[c];
+                I_Result_jcstress r = rs[c];
+                r.trap = 0;
+                s.actor1(r);
+            }
+
+            holder.postRun();
+
+            jcstress_consume(holder, counter, 0, 2);
+            jcstress_updateHolder(holder);
+
+            holder.postUpdate();
+        }
+    }
+
+    public final Counter<I_Result_jcstress> actor2() {
+
+        Counter<I_Result_jcstress> counter = new Counter<>();
+        while (true) {
+            StateHolder<SimpleTest,I_Result_jcstress> holder = version;
+            if (holder.stopped) {
+                return counter;
+            }
+
+            SimpleTest[] ss = holder.ss;
+            I_Result_jcstress[] rs = holder.rs;
+            int size = ss.length;
+
+            holder.preRun();
+
+            for (int c = 0; c < size; c++) {
+                SimpleTest s = ss[c];
+                I_Result_jcstress r = rs[c];
+                r.trap = 0;
+                s.actor2(r);
+            }
+
+            holder.postRun();
+
+            jcstress_consume(holder, counter, 1, 2);
+            jcstress_updateHolder(holder);
+
+            holder.postUpdate();
+        }
+    }
+
+}

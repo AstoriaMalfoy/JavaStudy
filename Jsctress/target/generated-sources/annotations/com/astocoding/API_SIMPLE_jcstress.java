@@ -107,4 +107,99 @@ public class API_SIMPLE_jcstress extends Runner<II_Result_jcstress> {
         int len = ss.length;
         int left = a * len / actors;
         int right = (a + 1) * len / actors;
-   
+        for (int c = left; c < right; c++) {
+            II_Result_jcstress r = rs[c];
+            API_SIMPLE s = ss[c];
+            s.v = 0;
+            cnt.record(r);
+            r.r1 = 0;
+            r.r2 = 0;
+        }
+    }
+
+    public final void jcstress_updateHolder(StateHolder<API_SIMPLE, II_Result_jcstress> holder) {
+        if (!holder.tryStartUpdate()) return;
+        API_SIMPLE[] ss = holder.ss;
+        II_Result_jcstress[] rs = holder.rs;
+        int len = ss.length;
+
+        int newLen = holder.updateStride ? Math.max(config.minStride, Math.min(len * 2, config.maxStride)) : len;
+
+        API_SIMPLE[] newS = ss;
+        II_Result_jcstress[] newR = rs;
+        if (newLen > len) {
+            newS = Arrays.copyOf(ss, newLen);
+            newR = Arrays.copyOf(rs, newLen);
+            for (int c = len; c < newLen; c++) {
+                newR[c] = new II_Result_jcstress();
+                newS[c] = new API_SIMPLE();
+            }
+         }
+
+        version = new StateHolder<>(control.isStopped, newS, newR, 2, config.spinLoopStyle);
+        holder.finishUpdate();
+   }
+
+    public final Counter<II_Result_jcstress> methodA() {
+
+        Counter<II_Result_jcstress> counter = new Counter<>();
+        while (true) {
+            StateHolder<API_SIMPLE,II_Result_jcstress> holder = version;
+            if (holder.stopped) {
+                return counter;
+            }
+
+            API_SIMPLE[] ss = holder.ss;
+            II_Result_jcstress[] rs = holder.rs;
+            int size = ss.length;
+
+            holder.preRun();
+
+            for (int c = 0; c < size; c++) {
+                API_SIMPLE s = ss[c];
+                II_Result_jcstress r = rs[c];
+                r.trap = 0;
+                s.methodA(r);
+            }
+
+            holder.postRun();
+
+            jcstress_consume(holder, counter, 0, 2);
+            jcstress_updateHolder(holder);
+
+            holder.postUpdate();
+        }
+    }
+
+    public final Counter<II_Result_jcstress> methodB() {
+
+        Counter<II_Result_jcstress> counter = new Counter<>();
+        while (true) {
+            StateHolder<API_SIMPLE,II_Result_jcstress> holder = version;
+            if (holder.stopped) {
+                return counter;
+            }
+
+            API_SIMPLE[] ss = holder.ss;
+            II_Result_jcstress[] rs = holder.rs;
+            int size = ss.length;
+
+            holder.preRun();
+
+            for (int c = 0; c < size; c++) {
+                API_SIMPLE s = ss[c];
+                II_Result_jcstress r = rs[c];
+                r.trap = 0;
+                s.methodB(r);
+            }
+
+            holder.postRun();
+
+            jcstress_consume(holder, counter, 1, 2);
+            jcstress_updateHolder(holder);
+
+            holder.postUpdate();
+        }
+    }
+
+}
