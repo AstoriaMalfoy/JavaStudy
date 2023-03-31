@@ -36,6 +36,7 @@ public class CuckooHashTest {
 
     public static void main(String[] args) {
         List<Context> contextList = new ArrayList<>();
+
         contextList.add(Context.ofFunction("deepLimit-2-10", CuckooHashTest::testTwoBucket, 10));
         contextList.add(Context.ofFunction("deepLimit-2-20", CuckooHashTest::testTwoBucket, 30));
         contextList.add(Context.ofFunction("deepLimit-2-30", CuckooHashTest::testTwoBucket, 50));
