@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NUaDAQ6X1UbTi4vemfdfmrRgwD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "/Users/stuart/myDevFile/Project/JavaProject/JavaStudy",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "spring.configuration.checksum": "fda65e2992afb15a934f2c91611953dc"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter">
+    <configuration name="GuavaBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.bloomFilter.GuavaBloomFilter" />
+      <module name="BloomFilter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.astocoding.bloomfilter.bloomFilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomGuavaBloomFilterApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BloomFilter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.astocoding.bloomfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.astocoding.bloomfilter" />
+      <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.BloomGuavaBloomFilterApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomGuavaBloomFilterApplicationTests.setAndPutValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BloomFilter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.astocoding.bloomfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.astocoding.bloomfilter" />
+      <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.BloomGuavaBloomFilterApplicationTests" />
+      <option name="METHOD_NAME" value="setAndPutValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BloomFilter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.astocoding.bloomfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.astocoding.bloomfilter" />
+      <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.BloomGuavaBloomFilterApplicationTests" />
+      <option name="METHOD_NAME" value="testRedisBloomFilter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BloomFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BloomFilter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.astocoding.bloomfilter.BloomFilterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter" />
+        <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.setAndPutValue" />
+        <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.contextLoads" />
+        <item itemvalue="Application.GuavaBloomFilter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="" />
+      <created>1679720992208</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679720992208</updated>
+      <workItem from="1679720993664" duration="2757000" />
+      <workItem from="1679728725523" duration="200000" />
+      <workItem from="1679728931731" duration="7945000" />
+      <workItem from="1680007646994" duration="101000" />
+      <workItem from="1680007755794" duration="4699000" />
+      <workItem from="1680108145474" duration="2617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/java/com/astocoding/bloomfilter/bloomFilter/GuavaBloomFilter.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
