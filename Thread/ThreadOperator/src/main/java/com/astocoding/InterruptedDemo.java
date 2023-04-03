@@ -1,6 +1,5 @@
 package com.astocoding;
 
-import java.lang.reflect.ParameterizedType;
 import java.util.concurrent.CountDownLatch;
 
 /**
