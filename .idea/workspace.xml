@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaBase/src/main/java/com/astocoding/AlignSecondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/java/com/astocoding/xxljobdeconstruct/anno/PermissionLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/java/com/astocoding/xxljobdeconstruct/config/MVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/java/com/astocoding/xxljobdeconstruct/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/java/com/astocoding/xxljobdeconstruct/controller/WriteCookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/java/com/astocoding/xxljobdeconstruct/interceptor/PermissionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/java/com/astocoding/xxljobdeconstruct/model/HttpReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Thread/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +36,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/apache/zookeeper/zookeeper/3.8.0/zookeeper-3.8.0.jar!/org/apache/zookeeper/Watcher.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="cdegjvbl" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../software/maven/apache-maven-3.8.6" />
         <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Develop\software\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -42,33 +67,54 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/stuart/myDevFile/Project/JavaProject/JavaStudy&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fda65e2992afb15a934f2c91611953dc&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/Develop/prvProject/JavaStudy/SpringBootNoteBook",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "fda65e2992afb15a934f2c91611953dc",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="GuavaBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.bloomFilter.GuavaBloomFilter" />
       <module name="BloomFilter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.astocoding.bloomfilter.bloomFilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +177,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XxljobDeconstructApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="xxljob-deconstruct" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.astocoding.xxljobdeconstruct.XxljobDeconstructApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter" />
         <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.setAndPutValue" />
         <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.contextLoads" />
@@ -155,6 +209,8 @@
       <workItem from="1680007755794" duration="4699000" />
       <workItem from="1680108145474" duration="3613000" />
       <workItem from="1680194325321" duration="35000" />
+      <workItem from="1686044018669" duration="28000" />
+      <workItem from="1686044064800" duration="4841000" />
     </task>
     <servers />
   </component>
@@ -171,6 +227,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

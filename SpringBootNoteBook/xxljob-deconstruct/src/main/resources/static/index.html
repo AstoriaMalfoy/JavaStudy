@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br>name:<input type="text" id="name">
+<br>password:<input type="text" id="password">
+<br>remember me:<input type="checkbox" id="rememberMe">
+<br>
+<button id="btn">post login</button>
+<div id="div"></div>
+<script>
+    let btn = document.querySelector('#btn');
+    let div = document.querySelector('#div');
+    btn.onclick = function () {
+        let xtr = new XMLHttpRequest();
+        xtr.open('post', '/login');
+        xtr.setRequestHeader('Content-Type', 'application/json');
+        xtr.send(JSON.stringify({
+            name: document.querySelector('#name').value,
+            password: document.querySelector('#password').value,
+            rememberMe: document.querySelector('#rememberMe').checked
+        }));
+        xtr.onreadystatechange = function () {
+            if (xtr.readyState === 4 && xtr.status === 200) {
+                div.innerHTML = xtr.responseText;
+            }
+        }
+    }
+</script>
+<hr>
+<br>value:<input type="text" id="echo-value">
+<button id="btn2">echo</button>
+<div id="div2"></div>
+<br>
+<script>
+    let btn2 = document.querySelector('#btn2');
+    let div2 = document.querySelector('#div2');
+    btn2.onclick = function (){
+        let xtr = new XMLHttpRequest();
+        xtr.open('post', '/echo');
+        xtr.setRequestHeader('Content-Type', 'application/json');
+        xtr.send(JSON.stringify({
+            value: 'messaage=' + document.querySelector('#echo-value').value
+        }));
+        xtr.onreadystatechange = function () {
+            if (xtr.readyState === 4 && xtr.status === 200) {
+                div2.innerHTML = xtr.responseText;
+            }
+        }
+    }
+</script>
+</body>
+</html>
