@@ -16,11 +16,15 @@ import java.io.IOException;
 @Slf4j
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        ZooKeeper zooKeeper = new Main().connectZooKeeperClient();
+        Main main = new Main();
+        ZooKeeper zooKeeper = main.connectZooKeeperClient();
         if (zooKeeper != null){
             log.info("zooKeeper create success state: {}", zooKeeper.getState());
         }
-        Thread.sleep(1000000);
+        main.createDataMonitor(zooKeeper, "/test");
+        while (true){
+            Thread.sleep(1000);
+        }
     }
 
     public ZooKeeper connectZooKeeperClient(){
@@ -28,7 +32,7 @@ public class Main {
         try {
             // 创建zookeeper客户端，创建连接可以提供多个IP地址，需要多个IP地址之间使用,分隔，第二个参数是会话超时时间，单位毫秒
             // 最后提供一个watchEvent对象，当zookeeper连接状态发生变化的时候，会调用该监听事件的process方法
-            zooKeeper = new ZooKeeper("localhost:2181,localhost:2182,localhost:2183", 3000, watchedEvent -> {
+            zooKeeper = new ZooKeeper("localhost:2181", 3000, watchedEvent -> {
                 if (watchedEvent.getState() == Watcher.Event.KeeperState.SyncConnected){
                     log.info("zookeeper连接成功。。。。。。 连接状态 。。。。。。同步连接成功");
                 }
@@ -39,10 +43,17 @@ public class Main {
                 }
 
             });
+            
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         return zooKeeper;
     }
+
+    public DataMonitor createDataMonitor(ZooKeeper zooKeeper, String zNode){
+        return new DataMonitor(zooKeeper, zNode, null, null);
+    }
+
+    
 
 }

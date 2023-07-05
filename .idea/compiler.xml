@@ -12,15 +12,16 @@
         <module name="zookeeper" />
         <module name="ThreadLocal" />
         <module name="ThreadPool" />
+        <module name="SpringBootDemo" />
         <module name="BloomFilter" />
-        <module name="springboot-noteBook" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BloomFilter" options="-parameters" />
-      <module name="springboot-noteBook" options="-parameters" />
+      <module name="SpringBootDemo" options="-parameters" />
+      <module name="springboot-noteBook" options="" />
       <module name="xxljob-deconstruct" options="-parameters" />
     </option>
   </component>
