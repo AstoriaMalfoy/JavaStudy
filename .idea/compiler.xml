@@ -11,6 +11,7 @@
         <module name="xxljob-deconstruct" />
         <module name="zookeeper" />
         <module name="ThreadLocal" />
+        <module name="JavaBase" />
         <module name="ThreadPool" />
         <module name="SpringBootDemo" />
         <module name="BloomFilter" />
