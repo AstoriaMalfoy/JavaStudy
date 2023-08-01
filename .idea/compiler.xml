@@ -10,6 +10,7 @@
         <module name="ThreadOperator" />
         <module name="xxljob-deconstruct" />
         <module name="zookeeper" />
+        <module name="mq" />
         <module name="ThreadLocal" />
         <module name="ThreadPool" />
         <module name="SpringBootDemo" />
@@ -21,7 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BloomFilter" options="-parameters" />
       <module name="SpringBootDemo" options="-parameters" />
-      <module name="springboot-noteBook" options="" />
+      <module name="springboot-noteBook" options="-parameters" />
       <module name="xxljob-deconstruct" options="-parameters" />
     </option>
   </component>

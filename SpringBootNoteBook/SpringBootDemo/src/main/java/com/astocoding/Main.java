@@ -1,16 +1,13 @@
 package com.astocoding;
 
 import com.astocoding.config.Config;
-import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.ImportResource;
 
 
 /**
@@ -31,10 +28,12 @@ public class Main implements ApplicationContextAware {
         log.info("-------spring start success-------");
         Config.TestBean testBean = applicationContext.getBean(Config.TestBean.class);
         log.info("testBean:{}", testBean);
+
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        log.info("init the application context by setApplicationContext");
         Main.applicationContext = applicationContext;
     }
 }

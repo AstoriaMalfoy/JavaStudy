@@ -5,46 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d90fb92ec4bc377b7ef4fcfec06e731f339121a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4b09971fec4d2880398d19c4810bca689bfa44f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c018b31a8dc7426be6c44cc0fc5d63fbc10d1498" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/d/2d90fb92ec4bc377b7ef4fcfec06e731f339121a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/b/4b09971fec4d2880398d19c4810bca689bfa44f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c018b31a8dc7426be6c44cc0fc5d63fbc10d1498" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/analyzer/MiddleFailAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/analyzer/PortInUseFailAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/analyzer/StartFailAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/springboot-noteBook.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/Thread.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/ThreadLocal/ThreadLocal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/ThreadOperator/ThreadOperator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Thread/ThreadPool/ThreadPool.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/org/example/DataMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/org/example/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/available/ChangeServiceAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/available/MyReadinessStateExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/common/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/fastRequest/fastRequestCollection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/fastRequest/fastRequestCurrentProjectConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/3/c/3c2fdf357c83cc85d2ca3f4dff88ee4450de95a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/5/2/522f65b97ef12df3e3f52ba78632dbde9753b735" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/5/2/527ce17eb5cafea01f6f03426c7bcfaf63510076" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/6/7/67712002a8e44ec637325af5b9898141f372ba06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/8/2/82b68abf4d458d921ee11e89401246989b81c9ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/b/d/bde50072fc0c4761ed7d50c24a92abe2c72a9a74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/c/7/c74ea744dbfdc95505893871e7a68611db755678" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/e/c/ec99170ecfd82e0ce40efd9711f673ff54554ed9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/3/c/3c2fdf357c83cc85d2ca3f4dff88ee4450de95a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/5/2/522f65b97ef12df3e3f52ba78632dbde9753b735" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/5/2/527ce17eb5cafea01f6f03426c7bcfaf63510076" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/6/7/67712002a8e44ec637325af5b9898141f372ba06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/8/2/82b68abf4d458d921ee11e89401246989b81c9ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/b/d/bde50072fc0c4761ed7d50c24a92abe2c72a9a74" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/c/7/c74ea744dbfdc95505893871e7a68611db755678" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/e/c/ec99170ecfd82e0ce40efd9711f673ff54554ed9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/src/main/java/com/astocoding/rabbitMQ/RabbitMQClientTestConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq/src/main/java/com/astocoding/rabbitMQ/constant/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/76e19f3e-f589-4e02-b8e6-59a5d1d138ce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/76e19f3e-f589-4e02-b8e6-59a5d1d138ce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeQuestion" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/codeQuestion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/codeQuestion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/dataSources/b3e221ed-ffa1-4a4d-b37a-83acfd63fb04.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/dataSources/b3e221ed-ffa1-4a4d-b37a-83acfd63fb04.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/leetcode-pro/statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeQuestion/target/classes/newCode/leetcode/editor/cn/MiceAndCheese$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/target/classes/newCode/leetcode/editor/cn/MiceAndCheese$Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +76,8 @@
     <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Users/李涛/.jdks/corretto-17.0.6/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/com/rabbitmq/amqp-client/5.12.0/amqp-client-5.12.0-sources.jar!/com/rabbitmq/client/Channel.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/apache/zookeeper/zookeeper/3.8.0/zookeeper-3.8.0-sources.jar!/org/apache/zookeeper/AsyncCallback.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/apache/zookeeper/zookeeper/3.8.0/zookeeper-3.8.0-sources.jar!/org/apache/zookeeper/Watcher.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../software/maven/repository/org/apache/zookeeper/zookeeper/3.8.0/zookeeper-3.8.0-sources.jar!/org/apache/zookeeper/ZooKeeper.java" root0="SKIP_INSPECTION" />
@@ -80,11 +93,13 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../software/maven/apache-maven-3.8.6" />
-        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Develop\software\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2NUaDAQ6X1UbTi4vemfdfmrRgwD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -109,8 +124,8 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "D:/Develop/prvProject/JavaStudy/SpringBootNoteBook",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/Develop/OpenSourceProjet/statemachine",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,7 +136,7 @@
     "project.structure.side.proportion": "0.1891892",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "settings.editor.splitter.proportion": "0.3411215",
-    "spring.configuration.checksum": "8fe5545d7b07b6987d33a7a6330913d4",
+    "spring.configuration.checksum": "5b47438050e82b84c57f9cdcc79396ce",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -130,7 +145,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager" selected="Application.RabbitMQClientTestConnection">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="zookeeper" />
@@ -144,18 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BloomGuavaBloomFilterApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BloomFilter" />
+    <configuration name="RabbitMQClientTestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.astocoding.rabbitMQ.RabbitMQClientTestConnection" />
+      <module name="mq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.astocoding.bloomfilter.*" />
+          <option name="PATTERN" value="com.astocoding.rabbitMQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.astocoding.bloomfilter" />
-      <option name="MAIN_CLASS_NAME" value="com.astocoding.bloomfilter.BloomGuavaBloomFilterApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RabbitMQClientTestConnection" />
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter" />
         <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.setAndPutValue" />
-        <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +260,10 @@
       <workItem from="1686044064800" duration="10384000" />
       <workItem from="1686193990082" duration="1928000" />
       <workItem from="1686376698320" duration="6816000" />
-      <workItem from="1688450649502" duration="14957000" />
+      <workItem from="1688450649502" duration="22633000" />
+      <workItem from="1688719013527" duration="4735000" />
+      <workItem from="1688801687927" duration="308000" />
+      <workItem from="1690859516853" duration="7100000" />
     </task>
     <servers />
   </component>
@@ -277,6 +292,11 @@
           <url>file://$PROJECT_DIR$/SpringBootNoteBook/BloomFilter/src/main/java/com/astocoding/bloomfilter/bloomFilter/GuavaBloomFilter.java</url>
           <line>54</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/controller/TestController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,6 +10,7 @@
     <modules>
         <module>Thread</module>
         <module>zookeeper</module>
+        <module>mq</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -15,9 +15,6 @@
     <modules>
         <module>SpringBootDemo</module>
     </modules>
-    <properties>
-        <java.version>17</java.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -41,6 +38,15 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <executable>C:\Users\李涛\.jdks\corretto-17.0.6</executable>
+                    <release>17</release>
+                </configuration>
             </plugin>
         </plugins>
     </build>
