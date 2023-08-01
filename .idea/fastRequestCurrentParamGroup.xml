@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="fastRequestCurrentParamGroup">
+    <option name="className" value="com.astocoding.controller.TestController" />
+    <option name="method" value="printConfig" />
+    <option name="module" value="SpringBootDemo" />
+    <option name="originUrl" value="/printConfig" />
+    <option name="url" value="/printConfig" />
+  </component>
+</project>
