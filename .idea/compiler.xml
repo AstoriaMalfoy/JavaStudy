@@ -12,9 +12,13 @@
         <module name="zookeeper" />
         <module name="ThreadLocal" />
         <module name="JavaBase" />
+        <module name="Jsctress" />
+        <module name="localCache" />
         <module name="ThreadPool" />
+        <module name="Unsafe" />
         <module name="SpringBootDemo" />
         <module name="BloomFilter" />
+        <module name="CuckooHash" />
       </profile>
     </annotationProcessing>
   </component>

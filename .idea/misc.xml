@@ -17,6 +17,11 @@
         <option value="$PROJECT_DIR$/SpringBootNoteBook/xxljob-deconstruct/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootNoteBook/pom.xml" />
         <option value="$PROJECT_DIR$/JavaBase/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaLock/pom.xml" />
+        <option value="$PROJECT_DIR$/Jsctress/pom.xml" />
+        <option value="$PROJECT_DIR$/localCache/pom.xml" />
+        <option value="$PROJECT_DIR$/CuckooHash/pom.xml" />
+        <option value="$PROJECT_DIR$/Unsafe/pom.xml" />
       </list>
     </option>
   </component>

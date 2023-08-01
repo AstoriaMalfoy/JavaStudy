@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/controller/TestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +202,7 @@
       <workItem from="1688450649502" duration="14957000" />
       <workItem from="1689266266456" duration="628000" />
       <workItem from="1689413043430" duration="3574000" />
-      <workItem from="1690373840719" duration="4027000" />
+      <workItem from="1690373840719" duration="5435000" />
     </task>
     <servers />
   </component>
