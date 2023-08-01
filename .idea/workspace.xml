@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d6d325a-b6fd-46e8-a097-25c187ac2a32" name="Changes" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/available/ChangeServiceAvailable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/available/MyReadinessStateExporter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/common/Config.java" afterDir="false" />
@@ -56,6 +57,11 @@
       <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/codeQuestion/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/SpringBootNoteBook/SpringBootDemo/src/main/java/com/astocoding/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +116,7 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RequestMappingsPanelOrder0": "0",
@@ -138,14 +145,49 @@
     "settings.editor.splitter.proportion": "0.3411215",
     "spring.configuration.checksum": "5b47438050e82b84c57f9cdcc79396ce",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Develop/prvProject/JavaStudy/SpringBootNoteBook&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.10661478&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1891892&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3411215&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fda65e2992afb15a934f2c91611953dc&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redis&quot;
     ]
   }
+<<<<<<< HEAD
 }]]></component>
   <component name="RunManager" selected="Application.RabbitMQClientTestConnection">
+=======
+}</component>
+  <component name="RunManager" selected="HTTP Request.Main | #1">
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="zookeeper" />
@@ -159,6 +201,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="RabbitMQClientTestConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.astocoding.rabbitMQ.RabbitMQClientTestConnection" />
       <module name="mq" />
@@ -171,6 +214,10 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+=======
+    <configuration name="Main | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/Main.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
     </configuration>
     <configuration name="BloomGuavaBloomFilterApplicationTests.setAndPutValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BloomFilter" />
@@ -233,7 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.RabbitMQClientTestConnection" />
+=======
+        <item itemvalue="HTTP Request.Main | #1" />
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
         <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BloomGuavaBloomFilterApplicationTests.testRedisBloomFilter" />
@@ -260,10 +311,17 @@
       <workItem from="1686044064800" duration="10384000" />
       <workItem from="1686193990082" duration="1928000" />
       <workItem from="1686376698320" duration="6816000" />
+<<<<<<< HEAD
       <workItem from="1688450649502" duration="22633000" />
       <workItem from="1688719013527" duration="4735000" />
       <workItem from="1688801687927" duration="308000" />
       <workItem from="1690859516853" duration="7100000" />
+=======
+      <workItem from="1688450649502" duration="14957000" />
+      <workItem from="1689266266456" duration="628000" />
+      <workItem from="1689413043430" duration="3574000" />
+      <workItem from="1690373840719" duration="4027000" />
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
     </task>
     <servers />
   </component>

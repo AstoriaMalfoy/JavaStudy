@@ -1,5 +1,6 @@
 package com.astocoding.controller;
 
+<<<<<<< HEAD
 import com.astocoding.available.ChangeServiceAvailable;
 import com.astocoding.common.Config;
 import jakarta.annotation.Resource;
@@ -38,5 +39,15 @@ public class TestController {
     @GetMapping("/printConfig")
     public void printConfig(){
         log.info("config:{}",config);
+=======
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestController {
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+>>>>>>> c18d8ad27015ef1b977c48027613d8c4e0eac7f2
     }
 }
