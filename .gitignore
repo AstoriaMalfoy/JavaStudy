@@ -12,7 +12,7 @@
 **/target
 **/.idea
 **/.DS_Store
-
+**/.fastRequest
 # Package Files #
 *.jar
 *.war
