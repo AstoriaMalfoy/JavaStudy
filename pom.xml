@@ -8,15 +8,15 @@
     <artifactId>JavaStudy</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Thread</module>
-        <module>zookeeper</module>
-        <module>mq</module>
         <module>CuckooHash</module>
         <module>Exception</module>
         <module>JavaBase</module>
         <module>JavaLock</module>
-        <module>Unsafe</module>
         <module>Jsctress</module>
+        <module>mq</module>
+        <module>Thread</module>
+        <module>Unsafe</module>
+        <module>zookeeper</module>
     </modules>
 
     <packaging>pom</packaging>

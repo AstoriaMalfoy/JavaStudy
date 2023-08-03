@@ -121,9 +121,16 @@ public class RabbitMQClientTestConnection {
 
         ScheduledExecutorService scheduledExecutorService  = Executors.newScheduledThreadPool(10);
 
+        /**
+         * 创建发送客户
+         */
         RabbitMQClientTestConnection rabbitSender = new RabbitMQClientTestConnection(
                 Config.RABBITMQ_HOST,Config.RABBITMQ_1_PORT,Config.RABBITMQ_USERNAME,Config.RABBITMQ_PASSWORD
         );
+
+        /**
+         * 创建接收客户端
+         */
         RabbitMQClientTestConnection rabbitConsumer = new RabbitMQClientTestConnection(
                 Config.RABBITMQ_HOST,Config.RABBITMQ_2_PORT,Config.RABBITMQ_USERNAME,Config.RABBITMQ_USERNAME
         );
@@ -131,12 +138,12 @@ public class RabbitMQClientTestConnection {
         rabbitConsumer.init();
 
         // 延迟发送
-//        scheduledExecutorService.scheduleWithFixedDelay(
-//                () -> rabbitSender.sendMessage("hello world " + System.currentTimeMillis(),"test_queue_a"),
-//                1,
-//                100,
-//                TimeUnit.MILLISECONDS
-//        );
+        scheduledExecutorService.scheduleWithFixedDelay(
+                () -> rabbitSender.sendMessage("hello world " + System.currentTimeMillis(),"test_queue_a"),
+                1,
+                100,
+                TimeUnit.MILLISECONDS
+        );
 
         // 注册接收
         rabbitConsumer.receiveMessage("test_queue_a");
