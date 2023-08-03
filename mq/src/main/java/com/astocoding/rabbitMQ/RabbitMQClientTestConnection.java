@@ -2,7 +2,6 @@ package com.astocoding.rabbitMQ;
 
 import com.astocoding.rabbitMQ.constant.Config;
 import com.rabbitmq.client.*;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.util.concurrent.Executors;
@@ -25,12 +24,6 @@ public class RabbitMQClientTestConnection {
     private String passWord;
 
 
-    public RabbitMQClientTestConnection(){
-        this.host = Config.RABBITMQ_HOST;
-        this.port = Config.RABBITMQ_1_PORT;
-        this.userName = Config.RABBITMQ_USERNAME;
-        this.passWord = Config.RABBITMQ_PASSWORD;
-    }
 
     public RabbitMQClientTestConnection(String host, int port, String userName, String passWord) {
         this.host = host;
@@ -108,6 +101,11 @@ public class RabbitMQClientTestConnection {
             @Override
             public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties, byte[] body) throws IOException {
                 System.out.println(topic + " 收到消息：" + new String(body));
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
             }
         };
 
@@ -122,6 +120,7 @@ public class RabbitMQClientTestConnection {
     public static void main(String[] args) throws InterruptedException {
 
         ScheduledExecutorService scheduledExecutorService  = Executors.newScheduledThreadPool(10);
+
         RabbitMQClientTestConnection rabbitSender = new RabbitMQClientTestConnection(
                 Config.RABBITMQ_HOST,Config.RABBITMQ_1_PORT,Config.RABBITMQ_USERNAME,Config.RABBITMQ_PASSWORD
         );
@@ -132,12 +131,12 @@ public class RabbitMQClientTestConnection {
         rabbitConsumer.init();
 
         // 延迟发送
-        scheduledExecutorService.scheduleWithFixedDelay(
-                () -> rabbitSender.sendMessage("hello world " + System.currentTimeMillis(),"test_queue_a"),
-                1,
-                1,
-                TimeUnit.SECONDS
-        );
+//        scheduledExecutorService.scheduleWithFixedDelay(
+//                () -> rabbitSender.sendMessage("hello world " + System.currentTimeMillis(),"test_queue_a"),
+//                1,
+//                100,
+//                TimeUnit.MILLISECONDS
+//        );
 
         // 注册接收
         rabbitConsumer.receiveMessage("test_queue_a");

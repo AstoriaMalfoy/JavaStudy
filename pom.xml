@@ -11,6 +11,12 @@
         <module>Thread</module>
         <module>zookeeper</module>
         <module>mq</module>
+        <module>CuckooHash</module>
+        <module>Exception</module>
+        <module>JavaBase</module>
+        <module>JavaLock</module>
+        <module>Unsafe</module>
+        <module>Jsctress</module>
     </modules>
 
     <packaging>pom</packaging>
