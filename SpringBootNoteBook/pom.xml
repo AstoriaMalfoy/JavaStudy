@@ -13,7 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
+        <module>BloomFilter</module>
         <module>SpringBootDemo</module>
+        <module>xxljob-deconstruct</module>
     </modules>
     <dependencies>
         <dependency>
