@@ -13,6 +13,7 @@
         <module>JavaBase</module>
         <module>JavaLock</module>
         <module>Jsctress</module>
+        <module>localCache</module>
         <module>mq</module>
         <module>Thread</module>
         <module>Unsafe</module>
