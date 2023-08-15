@@ -2,8 +2,6 @@ package org.example;
 
 import lombok.SneakyThrows;
 
-import java.lang.reflect.AnnotatedParameterizedType;
-import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
 /**
