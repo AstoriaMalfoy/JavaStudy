@@ -1,0 +1,10 @@
+<!-- applicationContext.xml -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="person" class="org.example.entity.Persion">
+        <property name="name" value="testName"/>
+        <property name="id" value="111222"/>
+    </bean>
+</beans>

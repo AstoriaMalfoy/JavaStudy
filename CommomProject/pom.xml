@@ -18,6 +18,7 @@
         <module>Thread</module>
         <module>Unsafe</module>
         <module>zookeeper</module>
+        <module>SpringSourceReader</module>
     </modules>
 
     <packaging>pom</packaging>
