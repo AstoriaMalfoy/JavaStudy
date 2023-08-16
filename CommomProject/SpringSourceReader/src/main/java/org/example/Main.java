@@ -14,7 +14,8 @@ import java.io.PrintStream;
  */
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+        System.setProperty("spring.config","D:\\Develop\\prvProject\\JavaStudy\\CommomProject\\SpringSourceReader\\src\\main\\resources");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("${spring.config}:applicationContext.xml");
         Persion persion = applicationContext.getBean("person", Persion.class);
         System.out.println(persion);
     }
