@@ -1,14 +1,0 @@
-
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-\
-java:S2184)"FCast one of the operands of this multiplication operation to a "long".(á³ñ±
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¯€³¢
-t
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
-O
-java:S2864+"4Iterate over the "entrySet" instead of the "keySet".(„î¸şÿÿÿÿ
-N	java:S106,"9Replace this use of System.out or System.err by a logger.(¾ï°
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-E
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ

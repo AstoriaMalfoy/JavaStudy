@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 
 /**
@@ -35,5 +36,10 @@ public class Main implements ApplicationContextAware {
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         log.info("init the application context by setApplicationContext");
         Main.applicationContext = applicationContext;
+    }
+
+
+    public void fileConfigurationGet(){
+        FileSystemXmlApplicationContext fileSystemXmlApplicationContext = new FileSystemXmlApplicationContext();
     }
 }
