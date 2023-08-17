@@ -126,7 +126,7 @@ public class RabbitMQClientTestConnection {
                 Config.RABBITMQ_HOST,Config.RABBITMQ_1_PORT,Config.RABBITMQ_USERNAME,Config.RABBITMQ_PASSWORD
         );
         RabbitMQClientTestConnection rabbitConsumer = new RabbitMQClientTestConnection(
-                Config.RABBITMQ_HOST,Config.RABBITMQ_2_PORT,Config.RABBITMQ_USERNAME,Config.RABBITMQ_USERNAME
+                Config.RABBITMQ_HOST,Config.RABBITMQ_1_PORT,Config.RABBITMQ_USERNAME,Config.RABBITMQ_USERNAME
         );
         rabbitSender.init();
         rabbitConsumer.init();
