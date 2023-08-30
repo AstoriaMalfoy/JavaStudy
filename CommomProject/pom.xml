@@ -19,6 +19,8 @@
         <module>Unsafe</module>
         <module>zookeeper</module>
         <module>SpringSourceReader</module>
+        <module>Jmh</module>
+        <module>code</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -33,6 +35,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
         </dependency>
     </dependencies>
 
