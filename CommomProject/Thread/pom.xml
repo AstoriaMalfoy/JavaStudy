@@ -18,6 +18,7 @@
         <module>ThreadPool</module>
         <module>SyncThread</module>
         <module>ThreadBase</module>
+        <module>createThread</module>
     </modules>
 
 
