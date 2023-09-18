@@ -17,7 +17,6 @@ public class LockSupportDemo {
             @Override
             public void run() {
                 while (flag){
-
                 }
 
                 System.out.println("before first park");

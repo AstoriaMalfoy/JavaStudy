@@ -13,4 +13,9 @@ public class GetEnv {
         Map<String, String> allEnv = System.getenv();
         System.out.println(allEnv);
     }
+    
+    public static void getString(){
+        System.out.println("this is a test mehod");
+    }
+
 }
