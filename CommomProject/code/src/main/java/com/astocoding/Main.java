@@ -38,4 +38,8 @@ public class Main {
         }
         return result;
     }
+
+    public void demoMethod(){
+        System.out.println("this is new demo method");
+    }
 }
