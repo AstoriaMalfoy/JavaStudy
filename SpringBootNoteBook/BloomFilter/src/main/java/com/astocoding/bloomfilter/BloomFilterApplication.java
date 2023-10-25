@@ -8,6 +8,7 @@ public class BloomFilterApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BloomFilterApplication.class, args);
+		System.out.println("the spring application is runncint");
 	}
 
 }

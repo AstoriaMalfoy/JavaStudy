@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
 /**
- * Created by IntelliJ LITAO.
+ * Create By nvim
  *
  * @author litao
  * @since 2023/2/22 14:24
@@ -47,6 +47,24 @@ public class ThreadLocalUserDemo {
         public String getValue(){
             return strLocalThread.get();
         }
+    }
+
+    public interface TestInterface{
+       String getDemoMessage(); 
+    }
+
+    public class TestImplemetA implements TestInterface {
+        @Override
+        public String getDemoMessage() {
+            return "this is a test message";
+        }        
+    }
+
+    public class TestImplementB implements TestInterface{
+        @Override
+        public String getDemoMessage() {
+            return  "this is a demo messag";
+        } 
     }
 
 }

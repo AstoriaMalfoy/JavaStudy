@@ -83,6 +83,7 @@ public class AQS{
                 System.out.println("thread already get lock");
                 // sleep 2s
                 try {
+                    Integer java = 1; 
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();

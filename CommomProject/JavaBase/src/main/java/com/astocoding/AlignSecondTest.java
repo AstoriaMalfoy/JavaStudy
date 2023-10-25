@@ -22,6 +22,7 @@ public class AlignSecondTest {
 
             new Thread(() -> {
                 System.out.println("the thread is " + Thread.currentThread().getName() + " start .. ");
+                System.out.println("Hello world");
                 for (int a = 0; a < 10; a++) {
                     try {
                         Thread.sleep(1000 - System.currentTimeMillis() % 1000);
